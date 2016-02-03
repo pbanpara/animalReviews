@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HomePage</title>
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/script.js"></script>
+	<style>
+	@import url('./assets/css/bootstrap.min.css');
+	@import url('./assets/css/style.css');
+
+	</style>
+</head>
+<body>
+		
+		<div class="container bg-danger">
+			
+			<div class="row">
+			
+				<div class="col-sm-12">
+					I AM HEADER
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="container bg-info">
+			<div class="row">
+				
+				<div class="col-md-6 col-sm-12">
+					<img src="http://lorempixel.com/300/300" alt="" class="img-responsive">
+				</div>
+				<div class="col-md-6 col-sm-12">
+					LOGIN WALA
+					
+					<button onClick="$('.modal').modal('show');"> Open</button>
+
+					<div class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+				</div>
+
+
+			</div>
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+-- create custom server 
+1. Get IP from terminal via this command 
+ifconfig
+2. Travel into root directory of project and hit this command 
+
+php -S <IP>:3500 -t ./
+
+eg 
+
+php -S 192.168.0.10:3500 -t ./
